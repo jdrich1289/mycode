@@ -3,7 +3,7 @@ bob = input("Enter a palindrome: ")
 
 for i in bob:
     if i == ' ':
-        print()
+        pass
     else:
         origin.append(i)
 
@@ -15,7 +15,7 @@ bobrev = []
 
 for i in boblist:
     if i == ' ':
-        print()
+        pass
     else:
         bobrev.append(i)
 
@@ -26,4 +26,4 @@ boblistcomb = (seperator.join(origin))
 if boblistcomb == bobrevcomb:
     print(bob, "is a palindrome.")
 else:
-    print(bob, "is not a palindrom.")
+    print(bob, "is not a palindrome.")
