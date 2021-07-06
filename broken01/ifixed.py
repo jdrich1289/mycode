@@ -8,12 +8,12 @@ operation = ""
 while calc1 != "q":
     print("\nWhat is the first operator? Or, enter q to quit: ")
     calc1 = input()
-    if calc1 == "q":
+    if calc1.lower() == "q":
         break
     calc1 = float(calc1)
     print("\nWhat is the second operator? Or, enter q to quit: ")
     calc2 = input()
-    if calc2 == "q":
+    if calc2.lower() == "q":
         break
     calc2 = float(calc2)
     print("Enter an operation to perform on the two operators (+ or -): ")
